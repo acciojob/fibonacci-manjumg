@@ -8,4 +8,7 @@ function fibonacci(num) {
         [a, b] = [b, a + b];
     }
     return b;
+	console.log(fibonacci(num));
 }
+ // Output: 0
+
